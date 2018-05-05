@@ -1,0 +1,2337 @@
+fileFormatVersion: 2
+guid: 9fbc3181bd2aa804d9aa8af219423fe1
+timeCreated: 1480117215
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HealthOrb_00000
+    21300002: HealthOrb_00001
+    21300004: HealthOrb_00002
+    21300006: HealthOrb_00003
+    21300008: HealthOrb_00004
+    21300010: HealthOrb_00005
+    21300012: HealthOrb_00006
+    21300014: HealthOrb_00007
+    21300016: HealthOrb_00008
+    21300018: HealthOrb_00009
+    21300020: HealthOrb_00010
+    21300022: HealthOrb_00011
+    21300024: HealthOrb_00012
+    21300026: HealthOrb_00013
+    21300028: HealthOrb_00014
+    21300030: HealthOrb_00015
+    21300032: HealthOrb_00016
+    21300034: HealthOrb_00017
+    21300036: HealthOrb_00018
+    21300038: HealthOrb_00019
+    21300040: HealthOrb_00020
+    21300042: HealthOrb_00021
+    21300044: HealthOrb_00022
+    21300046: HealthOrb_00023
+    21300048: HealthOrb_00024
+    21300050: HealthOrb_00025
+    21300052: HealthOrb_00026
+    21300054: HealthOrb_00027
+    21300056: HealthOrb_00028
+    21300058: HealthOrb_00029
+    21300060: HealthOrb_00030
+    21300062: HealthOrb_00031
+    21300064: HealthOrb_00032
+    21300066: HealthOrb_00033
+    21300068: HealthOrb_00034
+    21300070: HealthOrb_00035
+    21300072: HealthOrb_00036
+    21300074: HealthOrb_00037
+    21300076: HealthOrb_00038
+    21300078: HealthOrb_00039
+    21300080: HealthOrb_00040
+    21300082: HealthOrb_00041
+    21300084: HealthOrb_00042
+    21300086: HealthOrb_00043
+    21300088: HealthOrb_00044
+    21300090: HealthOrb_00045
+    21300092: HealthOrb_00046
+    21300094: HealthOrb_00047
+    21300096: HealthOrb_00048
+    21300098: HealthOrb_00049
+    21300100: HealthOrb_00050
+    21300102: HealthOrb_00051
+    21300104: HealthOrb_00052
+    21300106: HealthOrb_00053
+    21300108: HealthOrb_00054
+    21300110: HealthOrb_00055
+    21300112: HealthOrb_00056
+    21300114: HealthOrb_00057
+    21300116: HealthOrb_00058
+    21300118: HealthOrb_00059
+    21300120: HealthOrb_00060
+    21300122: HealthOrb_00061
+    21300124: HealthOrb_00062
+    21300126: HealthOrb_00063
+    21300128: HealthOrb_00064
+    21300130: HealthOrb_00065
+    21300132: HealthOrb_00066
+    21300134: HealthOrb_00067
+    21300136: HealthOrb_00068
+    21300138: HealthOrb_00069
+    21300140: HealthOrb_00070
+    21300142: HealthOrb_00071
+    21300144: HealthOrb_00072
+    21300146: HealthOrb_00073
+    21300148: HealthOrb_00074
+    21300150: HealthOrb_00075
+    21300152: HealthOrb_00076
+    21300154: HealthOrb_00077
+    21300156: HealthOrb_00078
+    21300158: HealthOrb_00079
+    21300160: HealthOrb_00080
+    21300162: HealthOrb_00081
+    21300164: HealthOrb_00082
+    21300166: HealthOrb_00083
+    21300168: HealthOrb_00084
+    21300170: HealthOrb_00085
+    21300172: HealthOrb_00086
+    21300174: HealthOrb_00087
+    21300176: HealthOrb_00088
+    21300178: HealthOrb_00089
+    21300180: HealthOrb_00090
+    21300182: HealthOrb_00091
+    21300184: HealthOrb_00092
+    21300186: HealthOrb_00093
+    21300188: HealthOrb_00094
+    21300190: HealthOrb_00095
+    21300192: HealthOrb_00096
+    21300194: HealthOrb_00097
+    21300196: HealthOrb_00098
+    21300198: HealthOrb_00099
+    21300200: HealthOrb_00100
+    21300202: HealthOrb_00101
+    21300204: HealthOrb_00102
+    21300206: HealthOrb_00103
+    21300208: HealthOrb_00104
+    21300210: HealthOrb_00105
+    21300212: HealthOrb_00106
+    21300214: HealthOrb_00107
+    21300216: HealthOrb_00108
+    21300218: HealthOrb_00109
+    21300220: HealthOrb_00110
+    21300222: HealthOrb_00111
+    21300224: HealthOrb_00112
+    21300226: HealthOrb_00113
+    21300228: HealthOrb_00114
+    21300230: HealthOrb_00115
+    21300232: HealthOrb_00116
+    21300234: HealthOrb_00117
+    21300236: HealthOrb_00118
+    21300238: HealthOrb_00119
+    21300240: HealthOrb_00120
+    21300242: HealthOrb_00121
+    21300244: HealthOrb_00122
+    21300246: HealthOrb_00123
+    21300248: HealthOrb_00124
+    21300250: HealthOrb_00125
+    21300252: HealthOrb_00126
+    21300254: HealthOrb_00127
+    21300256: HealthOrb_00128
+    21300258: HealthOrb_00129
+    21300260: HealthOrb_00130
+    21300262: HealthOrb_00131
+    21300264: HealthOrb_00132
+    21300266: HealthOrb_00133
+    21300268: HealthOrb_00134
+    21300270: HealthOrb_00135
+    21300272: HealthOrb_00136
+    21300274: HealthOrb_00137
+    21300276: HealthOrb_00138
+    21300278: HealthOrb_00139
+    21300280: HealthOrb_00140
+    21300282: HealthOrb_00141
+    21300284: HealthOrb_00142
+    21300286: HealthOrb_00143
+    21300288: HealthOrb_00144
+    21300290: HealthOrb_00145
+    21300292: HealthOrb_00146
+    21300294: HealthOrb_00147
+    21300296: HealthOrb_00148
+    21300298: HealthOrb_00149
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealthOrb_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00001
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00002
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00003
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00004
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00005
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00006
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00007
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00008
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00009
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00011
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00012
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00013
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00014
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00015
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00016
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00017
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00018
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00019
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00021
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00022
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00023
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00024
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00025
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00026
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00027
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00028
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00029
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00031
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00032
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00033
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00034
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00035
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00036
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00037
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00038
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00039
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00041
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00042
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00043
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00044
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00045
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00046
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00047
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00048
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00049
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00051
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00052
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00053
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00054
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00055
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00056
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00057
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00058
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00059
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00060
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00061
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00062
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00063
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00064
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00065
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00066
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00067
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00068
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00069
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00070
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00071
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00072
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00073
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00074
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00075
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00076
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00077
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00078
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00079
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00080
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00081
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00082
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00083
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00084
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00085
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00086
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00087
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00088
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00089
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00090
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00091
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00092
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00093
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00094
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00095
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00096
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00097
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00098
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00099
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00101
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00102
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00103
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00104
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00105
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00106
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00108
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00109
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1269
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00113
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1067
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 865
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 663
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 461
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00119
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00120
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00121
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00122
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00123
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00124
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00125
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00126
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00127
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00128
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00129
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1269
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00130
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1067
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00131
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 865
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00132
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 663
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00133
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 461
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00134
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 259
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00135
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 57
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00136
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00137
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00138
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00139
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00140
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00141
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00142
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00143
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00144
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1269
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00145
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1067
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00146
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 865
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00147
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 663
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00148
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 461
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthOrb_00149
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 259
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

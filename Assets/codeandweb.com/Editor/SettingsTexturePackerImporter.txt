@@ -1,0 +1,20 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Thr3e Assets/Textures/UI/HealthOrb/HealthFroth.tpsheet
+- Assets/Thr3e Assets/Textures/UI/HealthOrb/HealthOrb.tpsheet
+- Assets/Thr3e Assets/Textures/UI/RageOrb/RageFroth.tpsheet
+- Assets/Thr3e Assets/Textures/UI/RageOrb/RageOrb.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Thr3e Assets/Textures/UI/HealthOrb/Froth.png
+- Assets/Thr3e Assets/Textures/UI/HealthOrb/HealthOrb.png
+- Assets/Thr3e Assets/Textures/UI/RageOrb/RageFroth.png
+- Assets/Thr3e Assets/Textures/UI/RageOrb/RageOrb.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 

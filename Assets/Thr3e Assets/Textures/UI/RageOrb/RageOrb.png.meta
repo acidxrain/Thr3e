@@ -1,0 +1,2327 @@
+fileFormatVersion: 2
+guid: 2076d266aa5d9c3418b7634ce9b5c33c
+timeCreated: 1480127407
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RageOrb_00000
+    21300002: RageOrb_00001
+    21300004: RageOrb_00002
+    21300006: RageOrb_00003
+    21300008: RageOrb_00004
+    21300010: RageOrb_00005
+    21300012: RageOrb_00006
+    21300014: RageOrb_00007
+    21300016: RageOrb_00008
+    21300018: RageOrb_00009
+    21300020: RageOrb_00010
+    21300022: RageOrb_00011
+    21300024: RageOrb_00012
+    21300026: RageOrb_00013
+    21300028: RageOrb_00014
+    21300030: RageOrb_00015
+    21300032: RageOrb_00016
+    21300034: RageOrb_00017
+    21300036: RageOrb_00018
+    21300038: RageOrb_00019
+    21300040: RageOrb_00020
+    21300042: RageOrb_00021
+    21300044: RageOrb_00022
+    21300046: RageOrb_00023
+    21300048: RageOrb_00024
+    21300050: RageOrb_00025
+    21300052: RageOrb_00026
+    21300054: RageOrb_00027
+    21300056: RageOrb_00028
+    21300058: RageOrb_00029
+    21300060: RageOrb_00030
+    21300062: RageOrb_00031
+    21300064: RageOrb_00032
+    21300066: RageOrb_00033
+    21300068: RageOrb_00034
+    21300070: RageOrb_00035
+    21300072: RageOrb_00036
+    21300074: RageOrb_00037
+    21300076: RageOrb_00038
+    21300078: RageOrb_00039
+    21300080: RageOrb_00040
+    21300082: RageOrb_00041
+    21300084: RageOrb_00042
+    21300086: RageOrb_00043
+    21300088: RageOrb_00044
+    21300090: RageOrb_00045
+    21300092: RageOrb_00046
+    21300094: RageOrb_00047
+    21300096: RageOrb_00048
+    21300098: RageOrb_00049
+    21300100: RageOrb_00050
+    21300102: RageOrb_00051
+    21300104: RageOrb_00052
+    21300106: RageOrb_00053
+    21300108: RageOrb_00054
+    21300110: RageOrb_00055
+    21300112: RageOrb_00056
+    21300114: RageOrb_00057
+    21300116: RageOrb_00058
+    21300118: RageOrb_00059
+    21300120: RageOrb_00060
+    21300122: RageOrb_00061
+    21300124: RageOrb_00062
+    21300126: RageOrb_00063
+    21300128: RageOrb_00064
+    21300130: RageOrb_00065
+    21300132: RageOrb_00066
+    21300134: RageOrb_00067
+    21300136: RageOrb_00068
+    21300138: RageOrb_00069
+    21300140: RageOrb_00070
+    21300142: RageOrb_00071
+    21300144: RageOrb_00072
+    21300146: RageOrb_00073
+    21300148: RageOrb_00074
+    21300150: RageOrb_00075
+    21300152: RageOrb_00076
+    21300154: RageOrb_00077
+    21300156: RageOrb_00078
+    21300158: RageOrb_00079
+    21300160: RageOrb_00080
+    21300162: RageOrb_00081
+    21300164: RageOrb_00082
+    21300166: RageOrb_00083
+    21300168: RageOrb_00084
+    21300170: RageOrb_00085
+    21300172: RageOrb_00086
+    21300174: RageOrb_00087
+    21300176: RageOrb_00088
+    21300178: RageOrb_00089
+    21300180: RageOrb_00090
+    21300182: RageOrb_00091
+    21300184: RageOrb_00092
+    21300186: RageOrb_00093
+    21300188: RageOrb_00094
+    21300190: RageOrb_00095
+    21300192: RageOrb_00096
+    21300194: RageOrb_00097
+    21300196: RageOrb_00098
+    21300198: RageOrb_00099
+    21300200: RageOrb_00100
+    21300202: RageOrb_00101
+    21300204: RageOrb_00102
+    21300206: RageOrb_00103
+    21300208: RageOrb_00104
+    21300210: RageOrb_00105
+    21300212: RageOrb_00106
+    21300214: RageOrb_00107
+    21300216: RageOrb_00108
+    21300218: RageOrb_00109
+    21300220: RageOrb_00110
+    21300222: RageOrb_00111
+    21300224: RageOrb_00112
+    21300226: RageOrb_00113
+    21300228: RageOrb_00114
+    21300230: RageOrb_00115
+    21300232: RageOrb_00116
+    21300234: RageOrb_00117
+    21300236: RageOrb_00118
+    21300238: RageOrb_00119
+    21300240: RageOrb_00120
+    21300242: RageOrb_00121
+    21300244: RageOrb_00122
+    21300246: RageOrb_00123
+    21300248: RageOrb_00124
+    21300250: RageOrb_00125
+    21300252: RageOrb_00126
+    21300254: RageOrb_00127
+    21300256: RageOrb_00128
+    21300258: RageOrb_00129
+    21300260: RageOrb_00130
+    21300262: RageOrb_00131
+    21300264: RageOrb_00132
+    21300266: RageOrb_00133
+    21300268: RageOrb_00134
+    21300270: RageOrb_00135
+    21300272: RageOrb_00136
+    21300274: RageOrb_00137
+    21300276: RageOrb_00138
+    21300278: RageOrb_00139
+    21300280: RageOrb_00140
+    21300282: RageOrb_00141
+    21300284: RageOrb_00142
+    21300286: RageOrb_00143
+    21300288: RageOrb_00144
+    21300290: RageOrb_00145
+    21300292: RageOrb_00146
+    21300294: RageOrb_00147
+    21300296: RageOrb_00148
+    21300298: RageOrb_00149
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RageOrb_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00001
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00002
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00003
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00004
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00005
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00006
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00007
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00008
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00009
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3895
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00011
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00012
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00013
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00014
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00015
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00016
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00017
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00018
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00019
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3693
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00021
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00022
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00023
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00024
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00025
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00026
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00027
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00028
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00029
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3491
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00031
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00032
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00033
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00034
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00035
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00036
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00037
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00038
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00039
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3289
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00041
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00042
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00043
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00044
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00045
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00046
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00047
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00048
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00049
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3087
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00051
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00052
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00053
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00054
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00055
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00056
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00057
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00058
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00059
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2885
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00060
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00061
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00062
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00063
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00064
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00065
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00066
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00067
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00068
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00069
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2683
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00070
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00071
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00072
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00073
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00074
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00075
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00076
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00077
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00078
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00079
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2481
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00080
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00081
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00082
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00083
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00084
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00085
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00086
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00087
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00088
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00089
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2279
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00090
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00091
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00092
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00093
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00094
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00095
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00096
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00097
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00098
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00099
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2077
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00101
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00102
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00103
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00104
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00105
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00106
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00108
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00109
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1875
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1269
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00113
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1067
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 865
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 663
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 461
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00119
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00120
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00121
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00122
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00123
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00124
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00125
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00126
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00127
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1673
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00128
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00129
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1269
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00130
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1067
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00131
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 865
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00132
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 663
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00133
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 461
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00134
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 259
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00135
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 57
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00136
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00137
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00138
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00139
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00140
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00141
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00142
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00143
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1471
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00144
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1269
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00145
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1067
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00146
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 865
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00147
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 663
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00148
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 461
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RageOrb_00149
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 259
+        width: 199
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
