@@ -34,7 +34,8 @@ namespace DFTGames.Tools
     {
         public Material transparentMaterial;
         public bool replicateTexture = false;
-        public float fadingTime = 0.3f;
+        public float fadingOutTime = 0.3f;
+        public float fadingInTime = 0.3f;
         public float transparenceValue = 0.3f;
         public bool ignoreTriggers = true;
         public Color fadingColorFullWhite = new Color(1f, 1f, 1f, 1f);

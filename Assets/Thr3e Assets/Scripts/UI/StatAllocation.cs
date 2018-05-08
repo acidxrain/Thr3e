@@ -5,12 +5,12 @@ using UnityEngine;
 public class StatAllocation : MonoBehaviour
 {
 
-    public GameObject menu; // Assign in inspector
+    public GameObject statAllocationMenu;
     private bool isShowing;
 
     private void Start()
     {
-        menu.SetActive(false);
+        statAllocationMenu.SetActive(false);
     }
 
     void Update()
@@ -18,7 +18,7 @@ public class StatAllocation : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             isShowing = !isShowing;
-            menu.SetActive(isShowing);
+            statAllocationMenu.SetActive(isShowing);
         }
     }
 }

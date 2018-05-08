@@ -30,7 +30,7 @@ namespace DFTGames.Tools.EditorTools
         private static Color backColor = Color.cyan;
         private static Color labelColor = Color.yellow;
         private Color backColorOriginal = Color.green;
-        private Color labelColorOriginal = Color.green;
+        //private Color labelColorOriginal = Color.green;
 
         public override void OnInspectorGUI()
         {
@@ -39,7 +39,7 @@ namespace DFTGames.Tools.EditorTools
             fader = (FadeObstructors)target;
             Commons.DrawTexture(ResourceHelper.LogoFadeObstructors);
             backColorOriginal = GUI.backgroundColor;
-            labelColorOriginal = GUI.contentColor;
+            //labelColorOriginal = GUI.contentColor;
             EditorGUILayout.Separator();
             Commons.SetColors(backColor, labelColor);
 
@@ -60,13 +60,21 @@ namespace DFTGames.Tools.EditorTools
                 Undo.RecordObject(fader, "Replicate texture");
                 fader.replicateTexture = tmpBool;
             }
-            // Fading time
-            float tmpFloat = EditorGUILayout.Slider(new GUIContent("Fading out time", "The time for fading out the material"), fader.fadingTime, 0.05f, 2f);
-            if (tmpFloat != fader.fadingTime)
+            // Fading Out time
+            float tmpFloat = EditorGUILayout.Slider(new GUIContent("Fading out time", "The time for fading out the material"), fader.fadingOutTime, 0.05f, 2f);
+            if (tmpFloat != fader.fadingOutTime)
             {
                 isDirty = true;
                 Undo.RecordObject(fader, "Fading out time");
-                fader.fadingTime = tmpFloat;
+                fader.fadingOutTime = tmpFloat;
+            }
+            // Fading In time
+            tmpFloat = EditorGUILayout.Slider(new GUIContent("Fading in time", "The time for fading in the material"), fader.fadingInTime, 0.05f, 2f);
+            if (tmpFloat != fader.fadingInTime)
+            {
+                isDirty = true;
+                Undo.RecordObject(fader, "Fading in time");
+                fader.fadingInTime = tmpFloat;
             }
             // Fading amount
             tmpFloat = EditorGUILayout.Slider(new GUIContent("Fading amount", "The fading amount"), fader.transparenceValue, 0f, 1f);

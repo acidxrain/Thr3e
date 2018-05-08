@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GameMenuActions : MonoBehaviour {
 
     public GameObject pauseMenu;
-    public bool Paused = false;
+    public bool Paused;
     public bool pause;
 
     public void Start()
@@ -21,48 +21,41 @@ public class GameMenuActions : MonoBehaviour {
         // Enable pause menu
         if (Input.GetKeyDown(KeyCode.Escape) && !Paused)
         {
-            StartCoroutine (SetPauseActive());
+            //We need to disable the player input to navmesh here.
+            pauseMenu.SetActive(true);
+            Paused = true;
+            pause.Equals(true);
+            Time.timeScale = 0f;
         }
 
         // Disable pause menu
         else if (Input.GetKeyDown(KeyCode.Escape) && Paused)
         {
-            StartCoroutine(SetPauseInactive());
+            //Re-enable player input to navmesh here.
+            pauseMenu.SetActive(false);
+            Paused = false;
+            pause.Equals(false);
+            Time.timeScale = 1f;
         }
     }
 
-    public IEnumerator SetPauseActive()
+    //Execute when player presses "Resume" from options menu
+    public void Resume()
     {
-        pauseMenu.SetActive(true);
-        Paused = true;
-        Time.timeScale = 0f;
-        yield return null;
-    }
-
-    public IEnumerator SetPauseInactive()
-    {
+        Time.timeScale = 1f;
         pauseMenu.SetActive(false);
         Paused = false;
-        Time.timeScale = 1f;
-        yield return null;
     }
-
-    public IEnumerator ResumeGame()
+    
+    public void Options()
     {
-        StartCoroutine (SetPauseInactive());
-        yield return null;
+        //Keep commented until options scene is finished.
+        //SceneManager.LoadScene(4, LoadSceneMode.Additive);
     }
-
-    public IEnumerator ChangeScene(int sceneid)
+    
+    public void SaveAndExit()
     {
-        SceneManager.LoadScene(sceneid, LoadSceneMode.Single);
-        yield return null;
-    }
-
-    public IEnumerator ExitGame()
-    {
-        //Set this up later to save the player data.
-        Application.Quit();
-        yield return null;
+        //This needs to be changed later to save the actual game data!
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }

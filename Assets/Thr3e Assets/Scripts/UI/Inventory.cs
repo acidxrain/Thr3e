@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
 
-    public GameObject menu; // Assign in inspector
+    public GameObject inventoryMenu;
     private bool isShowing;
 
     private void Start()
     {
-        menu.SetActive(false);
+        inventoryMenu.SetActive(false);
     }
 
     void Update()
@@ -18,7 +19,7 @@ public class Inventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             isShowing = !isShowing;
-            menu.SetActive(isShowing);
+            inventoryMenu.SetActive(isShowing);
         }
     }
 }

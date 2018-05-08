@@ -23,7 +23,7 @@ public class VersionNumber : MonoBehaviour
     /// </summary>
     public bool ShowVersionDuringTheFirst20Seconds = false;
     string version;
-    public Rect position = new Rect(1800, 1035, 200, 200);
+    public Rect position = new Rect(1790, 1030, 200, 200);
 
     /// <summary>
     /// Gets the version.
@@ -56,8 +56,8 @@ public class VersionNumber : MonoBehaviour
             Destroy(this, 20f);
         }
 
-        position.x = 1800f;
-        position.y = 1035f;
+        position.x = 1790f;
+        position.y = 1030f;
 
     }
 

@@ -24,8 +24,9 @@ namespace DFTGames.Tools
 {
     public class FadingManager : MonoBehaviour
     {
-        public float fadingTime;
         public float fadingAmount;
+        public float fadingOutTime = 0.3f;
+        public float fadingInTime = 0.3f;
         public bool fadeOut = true;
         public Material oldMat;
         public int matIdx;
@@ -53,7 +54,7 @@ namespace DFTGames.Tools
                 mats[i].color = tmpColor;
             }
             myRenderer.materials = mats;
-            delta = (1 - fadingAmount) / fadingTime;
+            delta = (1 - fadingAmount) / fadingOutTime;
         }
 
         public void GoAway()

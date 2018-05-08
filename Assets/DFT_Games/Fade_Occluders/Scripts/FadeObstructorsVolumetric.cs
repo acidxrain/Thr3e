@@ -102,7 +102,7 @@ namespace DFTGames.Tools
                         // Add the shader to the list of those that have been changed
                         modifiedShaders.Add(rendererWeHit[idx].GetInstanceID(), shaderData);
                         fade = rendererWeHit[idx].gameObject.AddComponent<FadingManager>();
-                        fade.fadingTime = fadingTime;
+                        fade.fadingOutTime = fadingOutTime;
                         fade.fadingAmount = transparenceValue;
                     }
                 }
@@ -131,7 +131,7 @@ namespace DFTGames.Tools
                     if (fade != null)
                         fade.GoAway();
                     fade = sd.renderer.gameObject.AddComponent<FadingManager>();
-                    fade.fadingTime = fadingTime;
+                    fade.fadingOutTime = fadingOutTime;
                     fade.fadingAmount = transparenceValue;
                     fade.fadeOut = false;
                     fade.matIdx = m;
