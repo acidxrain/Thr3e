@@ -438,6 +438,7 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
@@ -486,6 +487,8 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
+    <None Include="Assets\PyroParticles\Readme.txt" />
     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
     <None Include="Assets\codeandweb.com\Readme.txt" />
     <None Include="C:\Users\acid_rain\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />

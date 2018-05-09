@@ -56,8 +56,8 @@ public class VersionNumber : MonoBehaviour
             Destroy(this, 20f);
         }
 
-        position.x = 1790f;
-        position.y = 1030f;
+        position.x = 1780f;
+        position.y = 1036f;
 
     }
 
@@ -71,6 +71,6 @@ public class VersionNumber : MonoBehaviour
 
         GUI.contentColor = Color.red;
         GUI.Label(position, string.Format("v{0}", Version));
-        GUI.skin.label.fontSize = 15;
+        GUI.skin.label.fontSize = 20;
     }
 }

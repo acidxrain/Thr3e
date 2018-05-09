@@ -105,6 +105,7 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
     <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
     <Reference Include="Assembly-UnityScript">
