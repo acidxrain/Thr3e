@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MoveToClickPoint : MonoBehaviour
 {
-    public Animator anim;
     public bool playerAttacking = false;
     public bool playerWalking = false;
     public bool playerIdle = false;
-    UnityEngine.AI.NavMeshAgent agent;
-    [SerializeField] private LayerMask _groundLayer;
+    private readonly bool Paused;
+    public Animator anim;
     public Camera mainCamera;
     public GameMenuActions gameMenuActions;
-    private bool Paused;
+    UnityEngine.AI.NavMeshAgent agent;
+    [SerializeField] private LayerMask groundLayer;
 
     void Start()
     {
@@ -41,7 +41,7 @@ public class MoveToClickPoint : MonoBehaviour
             RaycastHit hit;
 
             //Ignore walls with the raycast through bitshift layermask and allow walking on ground when clicked.
-            if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 1000, this._groundLayer))
+            if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 1000, this.groundLayer))
             {
                 agent.destination = hit.point;
                 anim.SetBool("IsAttacking", false);

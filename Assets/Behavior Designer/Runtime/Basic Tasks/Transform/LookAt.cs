@@ -17,6 +17,7 @@ namespace BehaviorDesigner.Runtime.Tasks.Basic.UnityTransform
 
         private Transform targetTransform;
         private GameObject prevGameObject;
+        internal Vector3 lookAtTargetPosition;
 
         public override void OnStart()
         {

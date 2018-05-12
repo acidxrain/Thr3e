@@ -5,17 +5,20 @@ public class AnimateOnHover : MonoBehaviour
 {
     public Animator anim;
 
-    public void PlayAttack()
+    private void Start()
     {
         anim = GetComponent<Animator>();
-        anim.SetBool("IsAttacking", true);
+    }
+
+    public void PlayAttack()
+    {
+        anim.SetBool("isAttacking", true);
     }
 
     public void PlayIdle()
     {
-        anim = GetComponent<Animator>();
-        anim.SetBool("IsAttacking", false);
-        anim.SetBool("IsWalking", false);
+        anim.SetBool("isAttacking", false);
+        anim.SetBool("moving", false);
     }
 
 }
