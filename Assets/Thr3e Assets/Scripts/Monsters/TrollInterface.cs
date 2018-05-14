@@ -2,107 +2,92 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class TrollInterface : MonoBehaviour, IDamageable, IIsAlive, IAttackAgent
+public class TrollInterface : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public float currentHealth;
-    public float damageAmount = 5;
-    public float attackAngle;
-    public float attackDistance;
-    public bool isAlive;
-    public GameObject currentTarget;
-    public Vector3 currentTargetPosition;
-    public Vector3 position;
-    public PlayerInterface playerInterface;
+    public int maxHealth = 100;             // Maximum health this enemy can have.
+    public float currentHealth;             // The current health this monster has.
+    public float damageAmount;              // How much damage this monster can deal.
+    public float distanceToPlayer;          // Distance between monster and player.
+    public float attackDistance = 1.0f;     // Distance check for ability to attack.
+    public float attackSpeedTimer = 0.0f;   // The monster's attack speed.
+    public bool canAttack;                  // Checks if the monster has waited long enough to attack again.
+    public bool inRangeToAttack;            // Checks if monster is within distance to attack.
+    public bool isAlive;                    // Checks if the monster is alive.
+    private float time = 1.0f;              // Controls the timer in between attacks.
+    public Vector3 position;                // The monster's current position.
+    public PlayerInterface playerInterface; // The player's script.
+    public Slider healthValue;              // Brute's health value.
+    Animator anim;
 
     void Start()
     {
-        //When we spawn, set our alive state to true.
+        // When we spawn, set our alive state to true, and set our health values.
         isAlive = true;
+        currentHealth = maxHealth;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        //Set our position so the player knows where to attack.
-        position = this.transform.position;
-    }
+        // Set our position so the player knows where to attack.
+        distanceToPlayer = Vector3.Distance(this.transform.position, playerInterface.position);
 
-    public void IsAlive(bool isAlive)
-    {
-        Debug.Log(isAlive);
-    }
-
-    public void TakeDamage(float damageAmount)
-    {
-        //Before we start taking damage, we should check to see if we're alive first.
-        if (isAlive == true)
+        if (distanceToPlayer <= 2 && isAlive == true && playerInterface.isAlive == true)
         {
-            //If we're alive, get our current health value and apply the damage we took to it.
-            currentHealth -= damageAmount;
+            inRangeToAttack = true;
+            anim.SetBool("run", false);
+            WaitToAttack();
         }
-        //If we're not alive, set our state to dead.
-        else if (currentHealth <= 0)
+        else if (distanceToPlayer >= 2 && distanceToPlayer <= 30 && isAlive == true && playerInterface.isAlive == true)
         {
-            //If we're dead, let the console know. Remove this later to get rid of console debug spam.
-            isAlive = false;
-            Debug.Log("We are dead. We can't take any more damage!");
+            anim.SetBool("run", true);
+            inRangeToAttack = false;
+            canAttack = false;
         }
         else
         {
-            Debug.Log("Error! Critical failure in TakeDamage function!");
+            // Player is dead or out of range.
+            anim.SetBool("attack03", false);
+            anim.SetBool("run", false);
+            anim.SetBool("idle01", true);
         }
     }
 
-    public void DealDamage(float damageAmount)
+    public void WaitToAttack()
     {
-        //Before we deal damage to the player, check to see if they're alive first.
-        if (playerInterface.isAlive == true)
+        if (attackSpeedTimer > 0)
         {
-            //If the player is alive, get the player's current health value from PlayerInterface and apply the damage amount.
-            playerInterface.currentHealth -= damageAmount;
-        }
-        else
-        {
-            Debug.Log("We can't damage a dead player!");
-        }
-    }
-
-    //Returns the furthest distance that the agent is able to attack from.
-    public void AttackDistance(float attackDistance)
-    {
-        attackDistance = 1.2f;
-        Debug.Log("Current attack distance is: " + attackDistance + ".");
-    }
-
-    //Can the agent attack?
-    public void CanAttack(bool canAttack)
-    {
-        if (currentTarget == null)
-        {
-            Debug.Log("We don't have a target!");
-            if (playerInterface.isAlive == false)
-            {
-                Debug.Log("Our target is dead!");
-            }
+            canAttack = false;
+            attackSpeedTimer -= time * Time.deltaTime;
         }
         else
         {
             canAttack = true;
+            Attack();
         }
     }
 
-    //Returns the maximum angle that the agent can attack from.
-    public void AttackAngle(float attackAngle)
+    public void Attack()
     {
-        attackAngle = 5.0f;
-        Debug.Log("Setting attack angle!");
+        if (playerInterface.isAlive)
+        {
+            // Start the attack through the attack animation.
+            anim.SetBool("attack03", true);
+            canAttack = false;
+        }
+        else
+        {
+            // Our player must be dead or out of range. Stop the attack animation.
+            anim.SetBool("attack03", false);
+            canAttack = false;
+        }
     }
 
-    //Does the actual attack.
-    public void Attack(Vector3 targetPosition)
+    // Actual damage is applied on "attack03" in Animation tab as event.
+    public void TriggerDamage()
     {
-        currentTargetPosition = playerInterface.position;
-        Debug.Log("Attacking target!");
+        playerInterface.healthValue.value -= damageAmount;
+        playerInterface.currentHealth -= damageAmount;
+        attackSpeedTimer = 2.0f;
     }
-
 }

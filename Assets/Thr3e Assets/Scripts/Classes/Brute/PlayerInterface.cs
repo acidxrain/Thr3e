@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-public class PlayerInterface : MonoBehaviour, IDamageable, IAttackAgent
+public class PlayerInterface : MonoBehaviour
 {
     public bool isAlive;
     private readonly bool Paused;
     public float maxHealth = 100;
+    public float damageAmount = 20;
     public float currentHealth;
     public Vector3 position;
     public Camera mainCamera;
@@ -38,14 +39,8 @@ public class PlayerInterface : MonoBehaviour, IDamageable, IAttackAgent
 
     void Update()
     {
-        // Set our position so the player knows where to attack.
+        // Set our position so the monster knows where to attack.
         position = this.transform.position;
-
-        // QUICK TEST FOR DAMAGE.
-        if (Input.GetKeyDown(KeyCode.D) && isAlive == true)
-        {
-            TakeDamage();
-        }
 
         // Check for an interaction command.
         if (Input.GetKey(KeyCode.Mouse0) && isAlive == true && !gameMenuActions.Paused)
@@ -61,27 +56,18 @@ public class PlayerInterface : MonoBehaviour, IDamageable, IAttackAgent
 
             else
             {
-                Debug.Log("Can't move! Game is paused, player is dead, or clicked an object not interactable");
+                Debug.Log("Can't move! Game is paused, player is dead, or clicked a non-interactable.");
             }
         }
-    }
 
-    public void IsAlive(bool isAlive)
-    {
-        Debug.Log(isAlive);
-    }
-
-    public void TakeDamage(float damageAmount)
-    {
-        // Before we start taking damage, we should check to see if we're alive first.
-        if (isAlive)
+        if (currentHealth <= 0f)
         {
-            // If we're alive, get our current health value and apply the damage we took to it.
-            currentHealth -= damageAmount;
+            Die();
+            //Debug.Log("You are dead!");
         }
     }
 
-    public void DealDamage(float damageAmount)
+    public void DealDamage()
     {
         // Before we deal damage to the player, check to see if they're alive first.
         if (trollInterface.isAlive == true)
@@ -93,56 +79,6 @@ public class PlayerInterface : MonoBehaviour, IDamageable, IAttackAgent
         else
         {
             Debug.Log("We can't damage a dead monster!");
-        }
-    }
-
-    // Returns the furthest distance that the agent is able to attack from.
-    public void AttackDistance(float attackDistance)
-    {
-        attackDistance = 1.2f;
-        Debug.Log("Current attack distance is: " + attackDistance + ".");
-    }
-
-    // Can the agent attack?
-    public void CanAttack(bool canAttack)
-    {
-        if (currentTarget == null)
-        {
-            Debug.Log("We don't have a target!");
-            if (trollInterface.isAlive == false)
-            {
-                Debug.Log("Our target is dead!");
-            }
-        }
-        else
-        {
-            canAttack = true;
-        }
-    }
-
-    // Returns the maximum angle that the agent can attack from.
-    public void AttackAngle(float attackAngle)
-    {
-        attackAngle = 5.0f;
-        Debug.Log("Setting attack angle!");
-    }
-
-    // Click to move and object interaction.
-    public void Attack(Vector3 targetPosition)
-    {
-
-    }
-
-
-    public void TakeDamage()
-    {
-        healthValue.value -= 5f;
-        currentHealth = healthValue.value;
-        Debug.Log("Taking 5 damage!");
-        if (currentHealth <= 0f)
-        {
-            Die();
-            Debug.Log("You are dead!");
         }
     }
 
