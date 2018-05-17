@@ -6,10 +6,10 @@ tpsheetFileNames:
 - Assets/Thr3e Assets/Textures/UI/RageOrb/RageFroth.tpsheet
 - Assets/Thr3e Assets/Textures/UI/RageOrb/RageOrb.tpsheet
 textureFileNames:
-- Assets/Thr3e Assets/Textures/UI/HealthOrb/Froth.png
-- Assets/Thr3e Assets/Textures/UI/HealthOrb/HealthOrb.png
-- Assets/Thr3e Assets/Textures/UI/RageOrb/RageFroth.png
-- Assets/Thr3e Assets/Textures/UI/RageOrb/RageOrb.png
+- Assets\Thr3e Assets\Textures\UI\HealthOrb/Froth.png
+- Assets\Thr3e Assets\Textures\UI\HealthOrb/HealthOrb.png
+- Assets\Thr3e Assets\Textures\UI\RageOrb/RageFroth.png
+- Assets\Thr3e Assets\Textures\UI\RageOrb/RageOrb.png
 normalmapFileNames:
 - 
 - 

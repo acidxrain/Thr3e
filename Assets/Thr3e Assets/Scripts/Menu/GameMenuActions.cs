@@ -79,5 +79,6 @@ public class GameMenuActions : MonoBehaviour
     {
         // This needs to be changed later to save the actual game data!
         SceneManager.LoadScene(0, LoadSceneMode.Single);
+        Time.timeScale = 1f;
     }
 }

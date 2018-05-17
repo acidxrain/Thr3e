@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Enemy Health
   - Enemy
+  - Monster
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - Ground
   - Player
   - Monster
+  - Barrell
   - FireLayer
-  - 
   - 
   - 
   - 

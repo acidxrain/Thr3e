@@ -13,12 +13,13 @@ public class AnimateOnHover : MonoBehaviour
     public void PlayAttack()
     {
         anim.SetBool("isAttacking", true);
+        anim.SetBool("isIdle", false);
     }
 
     public void PlayIdle()
     {
         anim.SetBool("isAttacking", false);
-        anim.SetBool("moving", false);
+        anim.SetBool("isIdle", true);
     }
 
 }
