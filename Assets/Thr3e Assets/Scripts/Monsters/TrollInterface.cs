@@ -7,9 +7,9 @@ public class TrollInterface : MonoBehaviour
 {
     public string monsterName = "Troll";    // The name of the monster.
     public int xpValue = 100;               // The amount of XP killing this unit will yield;
-    public int maxHealth = 100;             // Maximum health this enemy can have.
-    public float currentHealth;             // The current health this monster has.
-    public float damageAmount = 2f;         // How much damage this monster can deal.
+    public const int maxHealth = 20;        // Maximum health this enemy can have.
+    public int currentHealth;               // The current health this monster has.
+    public int damageAmount = 5;            // How much damage this monster can deal.
     public float distanceToPlayer;          // Distance between monster and player.
     public float attackDistance = 1.0f;     // Distance check for ability to attack.
     public float attackSpeedTimer = 0.0f;   // The monster's attack speed.
@@ -21,16 +21,21 @@ public class TrollInterface : MonoBehaviour
     public PlayerInterface playerInterface; // The player's script.
     public Slider healthValue;              // Troll's health value.
     public GameObject healthBarUI;          // Troll's healthbar activation/deactivation.
-    NavMeshAgent agent;                     // Troll's NavMesh agent.
+    //NavMeshAgent agent;                   // DISABLED - We're destroying immediately, instead. Troll's NavMesh agent.
     Animator anim;                          // Troll's animator controller.
 
     void Start()
     {
         // When we spawn, set our alive state to true, and set our health values.
+        // Update our health slider so the values are correct on time of spawn.
+        // Set the animator variable for our monster.
+        // Set our navmesh agent for the monster so they can move in the world.
         isAlive = true;
         currentHealth = maxHealth;
+        healthValue.maxValue = maxHealth;
+        healthValue.value = maxHealth;
         anim = GetComponent<Animator>();
-        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        //agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     void Update()
@@ -85,6 +90,7 @@ public class TrollInterface : MonoBehaviour
         if (playerInterface.isAlive)
         {
             // Start the attack through the attack animation.
+            anim.SetBool("damage", false);
             anim.SetBool("attack03", true);
             canAttack = false;
         }
@@ -104,14 +110,16 @@ public class TrollInterface : MonoBehaviour
         attackSpeedTimer = 2.0f;
     }
 
-    public void TakeDamage(float damageAmount)
+    public void TakeDamage(int damageAmount)
     {
+        anim.SetBool("damage", true);
         healthValue.value -= damageAmount;
         currentHealth -= damageAmount;
     }
 
     public void Die()
     {
+        anim.SetBool("damage", false);
         anim.SetBool("dead", true);
         anim.SetBool("attack03", false);
         // Change the behavior tree first before re-enabling this so you don't get errors!
@@ -119,8 +127,15 @@ public class TrollInterface : MonoBehaviour
         healthBarUI.SetActive(false);
         GiveXP();
         Destroy(this.gameObject);
+        StartCoroutine(DropLoot());
     }
 
+    public IEnumerator DropLoot()
+    {
+        Debug.Log("Troll dropped loot!");
+        yield return null;
+    }
+    
     public void GiveXP()
     {
         playerInterface.XPBar.value += xpValue;

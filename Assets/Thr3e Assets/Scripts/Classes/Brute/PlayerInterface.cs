@@ -7,39 +7,54 @@ using UnityEngine.UI;
 
 public class PlayerInterface : MonoBehaviour
 {
-    public bool isAlive;
-    private readonly bool Paused;
-    public float maxHealth = 100;
-    public float damageAmount = 5;
-    public float currentHealth;
-    public float attackDelay;
-    public Vector3 position;
-    public Camera mainCamera;
-    public GameObject currentTarget;
-    public Slider healthValue;
-    public Slider rageValue;
-    public Slider XPBar;
-    Animator anim;
-    public GameMenuActions gameMenuActions;
-    public TrollInterface trollInterface;
-    NavMeshAgent agent;
-    [SerializeField] private LayerMask interactableLayer;
+    public bool isAlive;                                        // Checks if the player is alive.
+    private readonly bool Paused;                               // Checks if the game is currently paused to stop input.
+    public int maxHealth;                                       // The maximum health of the player.
+    public int damageAmount;                                    // The player's damage amount.
+    public int strength;                                        // The player's strength amount.
+    public int agility;                                         // The player's agility amount.
+    public int health;                                          // The player's health amount.
+    public int resource;                                        // The player's resource amount.
+    public int currentHealth;                                   // The player's current health amount.
+    public int currentRage;                                     // The player's current resource amount.
+    public int maxRage;                                         // The player's maximum resource amount.
+    public float attackDelay;                                   // The player's attack speed delay.
+    public Vector3 position;                                    // The playuer's current position in the world.
+    public Camera mainCamera;                                   // The camera that follows the player.
+    public Slider healthValue;                                  // The player's current health shown on the UI slider.
+    public Slider rageValue;                                    // The player's current resource shown on the UI slider.
+    public Slider XPBar;                                        // The player's current XP shown on the UI slider.
+    public GameMenuActions gameMenuActions;                     // The script for the menu that shows when pressing "Escape" key.
+    public TrollInterface trollInterface;                       // The Troll monter's script to get variables.
+    public StatModifier statModifier;                           // The script used to pull stat variables from level-up's.
+    Animator anim;                                              // The animator that drives the player's animations.
+    NavMeshAgent agent;                                         // The agent that drives the player's movement in the world.
+    [SerializeField] private LayerMask interactableLayer;       // This layer contains anything the player can actually interact with by clicking.
+
+    void Awake()
+    {
+        mainCamera = Camera.main;                    // Set our camera variable name to mainCamera.
+        maxHealth = statModifier.health;             // Set our maximum health to whatever our max health value is in StatModifier.
+        currentHealth = maxHealth;                   // Set our current health to our maximum health value when we spawn.
+        healthValue.maxValue = statModifier.health;  // Set our player's health slider maximum value to our max health value in StatModifier.
+        healthValue.value = maxHealth;               // Set our player's health slider value to our max health value in StatModifier so we don't die.
+        strength = statModifier.strength;            // Set our player's strength value from StatModifier.
+        damageAmount = statModifier.strength;        // Ser our player's damage to our strength value after StatModifier calculations.
+        agility = statModifier.agility;              // Set our player's agility value from StatModifier.
+        health = statModifier.health;                // Set our player's health value from StatModifier.
+        resource = statModifier.resource;            // Set our player's resource value from StatModifier.
+        rageValue.maxValue = statModifier.resource;  // Set our player's resource slider maximum to our max resource value in StatModifier.
+        rageValue.value = statModifier.resource;     // Set our player's resource slider value to our max resource value in StatModifier so we have resource.
+    }
 
     void Start()
     {
         // When we spawn, set our alive state to true, cache the navmesh agent, and set our health values.
         isAlive = true;
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        currentHealth = maxHealth;
         anim = GetComponent<Animator>();
         Vector3 position = transform.position;
     }
-
-    void Awake()
-    {
-        mainCamera = Camera.main;
-    }
-
 
     void Update()
     {
@@ -58,7 +73,8 @@ public class PlayerInterface : MonoBehaviour
             if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 1000, this.interactableLayer))
             {
                 int objectClicked = hit.collider.gameObject.layer;
-                GameObject go = hit.collider.gameObject;
+                GameObject go = hit.collider.gameObject; //the object that was hit by the ray
+
 
                 // If we click a monster, go to it and attack.
                 if (objectClicked == 11)
@@ -76,8 +92,13 @@ public class PlayerInterface : MonoBehaviour
                         anim.SetBool("moving", false);
 
                         if (attackDelay == 0) // Add a check for the attack timer here to see if we can attack yet.
-                        {
-                            Attack();
+                        {          
+                            TrollInterface ti = go.GetComponent<TrollInterface>();
+
+                            if (ti != null)
+                            {
+                                Attack(ti);
+                            }
                         }
                         else
                         {
@@ -103,21 +124,28 @@ public class PlayerInterface : MonoBehaviour
             }
         }
 
-        if (currentHealth <= 0f)
+        if (currentHealth <= 0)
         {
             Die();
         }
     }
 
-    public void Attack()
+    public void Attack(TrollInterface ti) //Passing the troll we're attacking
     {
-        // Before we deal damage to the player, check to see if they're alive first.
-        if (trollInterface.isAlive == true)
+        // Before we deal damage to the monster, check to see if they're alive first.
+        if (ti.isAlive == true)
         {
             anim.SetBool("isAttacking", true);
             attackDelay += 1;
-            this.trollInterface.TakeDamage(damageAmount);
+            StartCoroutine(DealDamage(ti));
         }
+    }
+
+    public IEnumerator DealDamage(TrollInterface ti)
+    {
+        yield return new WaitForSeconds(0.3f);
+        ti.TakeDamage(damageAmount);
+        yield return null;
     }
 
     // When the player dies.

@@ -1275,6 +1275,7 @@
     <Compile Include="Assets\Thr3e Assets\Scripts\Classes\Brute\PlayerInterface.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\Classes\Brute\PlayerRage.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\Classes\Brute\PlayerStats.cs" />
+    <Compile Include="Assets\Thr3e Assets\Scripts\Classes\StatModifier.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\Interfaces\Interfaces.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\Interfaces\LayerMaskExtensions.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\Menu\AnimateOnHover.cs" />
@@ -1289,7 +1290,9 @@
     <Compile Include="Assets\Thr3e Assets\Scripts\Scene Transition\SceneTransition.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\UI\Globes.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\UI\Inventory.cs" />
+    <Compile Include="Assets\Thr3e Assets\Scripts\UI\LevelUp.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\UI\StatAllocation.cs" />
+    <Compile Include="Assets\Thr3e Assets\Scripts\UI\UseStatPoint.cs" />
     <Compile Include="Assets\Thr3e Assets\Scripts\UI\XPBar.cs" />
     <Compile Include="Assets\VersionNumber.cs" />
   </ItemGroup>
