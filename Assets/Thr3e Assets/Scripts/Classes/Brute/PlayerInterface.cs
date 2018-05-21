@@ -38,13 +38,8 @@ public class PlayerInterface : MonoBehaviour
         currentHealth = maxHealth;                   // Set our current health to our maximum health value when we spawn.
         healthValue.maxValue = statModifier.health;  // Set our player's health slider maximum value to our max health value in StatModifier.
         healthValue.value = maxHealth;               // Set our player's health slider value to our max health value in StatModifier so we don't die.
-        strength = statModifier.strength;            // Set our player's strength value from StatModifier.
-        damageAmount = statModifier.strength;        // Ser our player's damage to our strength value after StatModifier calculations.
-        agility = statModifier.agility;              // Set our player's agility value from StatModifier.
-        health = statModifier.health;                // Set our player's health value from StatModifier.
-        resource = statModifier.resource;            // Set our player's resource value from StatModifier.
+        damageAmount = statModifier.strength;        // Set our player's damage to our strength value after StatModifier calculations.
         rageValue.maxValue = statModifier.resource;  // Set our player's resource slider maximum to our max resource value in StatModifier.
-        rageValue.value = statModifier.resource;     // Set our player's resource slider value to our max resource value in StatModifier so we have resource.
     }
 
     void Start()
@@ -60,8 +55,10 @@ public class PlayerInterface : MonoBehaviour
     {
         // Set our position so the monster knows where to attack.
         position = this.transform.position;
-
         attackDelay = Math.Max(0, attackDelay - Time.deltaTime);
+        damageAmount = statModifier.strength;
+        healthValue.maxValue = statModifier.health;
+        rageValue.maxValue = statModifier.resource;
 
         // Check for an interaction command.
         if (Input.GetKey(KeyCode.Mouse0) && isAlive == true && !gameMenuActions.Paused)
@@ -145,6 +142,10 @@ public class PlayerInterface : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         ti.TakeDamage(damageAmount);
+        if (rageValue.value != rageValue.maxValue)
+        {
+            rageValue.value += 5;
+        }
         yield return null;
     }
 

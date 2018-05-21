@@ -6,88 +6,74 @@ public class UseStatPoint : MonoBehaviour {
 
     public PlayerStats playerStats;              // The script that pulls the stats of the player.
     public AudioClip UseStatPointClip;           // The sound effect that plays when the player levels up.
-
-    public void SpendStatPoint()
-    {
-        if (playerStats.currentStatPoints >= 1)
-        {
-            playerStats.currentStatPoints -= 1;
-            GetComponent<AudioSource>().Play();
-            Debug.Log("Used a stat point!");
-        }
-        else
-        {
-            Debug.Log("You don't have any stat points available!");
-        }
-    }
-
-    public void SpendSkillPoint()
-    {
-        if (playerStats.currentStatPoints >= 1)
-        {
-            playerStats.currentStatPoints -= 1;
-            GetComponent<AudioSource>().Play();
-            Debug.Log("Used a skill point!");
-        }
-        else
-        {
-            Debug.Log("You don't have any skill points available!");
-        }
-    }
+    public StatModifier statModifier;
+    public PlayerInterface playerInterface;
 
     public void IncreaseStrength()
     {
-        if (playerStats.currentSkillPoints >= 1)
+        if (playerStats.currentStatPoints > 0)
         {
-            playerStats.currentSkillPoints -= 1;
-            playerStats.statModifier.baseStrength++;
+            playerStats.currentStatPoints--;
+            statModifier.IncreaseBaseStrength();
+            playerStats.pointsInStrength++;
+            GetComponent<AudioSource>().Play();
             Debug.Log("Used a stat point to increase strength!");
         }
         else
         {
-            // Do nothing, because we have no skill points to spend.
+            // Do nothing because we don't have enough stat points to spend!
+            Debug.Log("Not enough stat points!");
         }
     }
 
     public void IncreaseAgility()
     {
-        if (playerStats.currentSkillPoints >= 1)
+        if (playerStats.currentStatPoints > 0)
         {
-            playerStats.currentSkillPoints -= 1;
-            playerStats.statModifier.baseAgility++;
+            playerStats.currentStatPoints--;
+            statModifier.IncreaseBaseAgility();
+            playerStats.pointsInAgility++;
+            GetComponent<AudioSource>().Play();
             Debug.Log("Used a stat point to increase agility!");
         }
         else
         {
-            // Do nothing, because we have no stat points to spend.
+            // Do nothing because we don't have enough stat points to spend!
+            Debug.Log("Not enough stat points!");
         }
     }
 
     public void IncreaseHealth()
     {
-        if (playerStats.currentSkillPoints >= 1)
+        if (playerStats.currentStatPoints > 0)
         {
-            playerStats.currentSkillPoints -= 1;
-            playerStats.statModifier.baseHealth++;
-            Debug.Log("Used a stat point to increase health!");
+            playerStats.currentStatPoints--;
+            statModifier.IncreaseBaseHealth();
+            playerStats.pointsInHealth++;
+            GetComponent<AudioSource>().Play();
+            Debug.Log("Used a stat point to increase Health!");
         }
         else
         {
-            // Do nothing, because we have no stat points to spend.
+            // Do nothing because we don't have enough stat points to spend!
+            Debug.Log("Not enough stat points!");
         }
     }
 
     public void IncreaseResource()
     {
-        if (playerStats.currentSkillPoints >= 1)
+        if (playerStats.currentStatPoints > 0)
         {
-            playerStats.currentSkillPoints -= 1;
-            playerStats.statModifier.baseResource++;
+            playerStats.currentStatPoints--;
+            statModifier.IncreaseBaseResource();
+            playerStats.pointsInResource++;
+            GetComponent<AudioSource>().Play();
             Debug.Log("Used a stat point to increase resource!");
         }
         else
         {
-            // Do nothing, because we have no stat points to spend.
+            // Do nothing because we don't have enough stat points to spend!
+            Debug.Log("Not enough stat points!");
         }
     }
 }

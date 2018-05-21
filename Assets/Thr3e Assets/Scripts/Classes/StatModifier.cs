@@ -6,20 +6,30 @@ public class StatModifier : MonoBehaviour {
 
     public PlayerStats playerStats;
     public PlayerInterface playerInterface;
-    public int baseStrength = 1;
+
+    // The names of the four stats.
     public int strength;
-    public int baseAgility = 1;
     public int agility;
-    public int baseHealth = 20;
     public int health;
-    public int baseResource = 1;
     public int resource;
-    public int baseDamage = 1;
-    public int damage;
-    public int strengthModifierValue = 5;
-    public int agilityModifierValue = 5;
-    public int healthModifierValue = 5;
-    public int resourceModifierValue = 5;
+
+    // Each player gets the defined amount in each stat listed below on spawn.
+    private int baseStrength = 1;
+    private int baseAgility = 1;
+    private int baseHealth = 100;
+    private int baseResource = 50;
+
+    // Modifiers to specify how much one point in each stat gives.
+    private const int strengthModifierValue = 1;
+    private const int agilityModifierValue = 1;
+    private const int healthModifierValue = 1;
+    private const int resourceModifierValue = 1;
+
+    // The current value of each stat after the modifier and base stats are multiplied.
+    public int currentBaseStrength;
+    public int currentBaseAgility;
+    public int currentBaseHealth;
+    public int currentBaseResource;
 
     // Use this for initialization
     void Awake ()
@@ -29,10 +39,36 @@ public class StatModifier : MonoBehaviour {
         health = baseHealth * healthModifierValue;
         resource = baseResource * resourceModifierValue;
 	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
 
-	}
+    void Update()
+    {
+        strength = baseStrength * strengthModifierValue;
+        agility = baseAgility * agilityModifierValue;
+        health = baseHealth * healthModifierValue;
+        resource = baseResource * resourceModifierValue;
+    }
+
+    public void IncreaseBaseStrength()
+    {
+        baseStrength++;
+        currentBaseStrength = baseStrength;
+    }
+
+    public void IncreaseBaseAgility()
+    {
+        baseAgility++;
+        currentBaseAgility = baseAgility;
+    }
+
+    public void IncreaseBaseHealth()
+    {
+        baseHealth++;
+        currentBaseHealth = baseHealth;
+    }
+
+    public void IncreaseBaseResource()
+    {
+        baseResource++;
+        currentBaseResource = baseResource;
+    }
 }
