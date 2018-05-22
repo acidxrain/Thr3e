@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class PlayerInterface : MonoBehaviour
@@ -61,7 +62,7 @@ public class PlayerInterface : MonoBehaviour
         rageValue.maxValue = statModifier.resource;
 
         // Check for an interaction command.
-        if (Input.GetKey(KeyCode.Mouse0) && isAlive == true && !gameMenuActions.Paused)
+        if (Input.GetKey(KeyCode.Mouse0) && isAlive == true && !gameMenuActions.Paused && !EventSystem.current.IsPointerOverGameObject())
         {
 
             RaycastHit hit;
