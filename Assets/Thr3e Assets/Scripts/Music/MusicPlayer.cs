@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour
 {
-    private static MusicPlayer _instance;
+    private static MusicPlayer instance;
 
     void Awake()
     {
-        //if we don't have an [_instance] set yet
-        if (!_instance)
-            _instance = this;
-        //otherwise, if we do, kill this thing
+        // If the music player doesn't exist in our scene, place it.
+        if (!instance)
+            instance = this;
+        // Otherwise, destroy this game object.
         else
             Destroy(this.gameObject);
-
-
-        DontDestroyOnLoad(this.gameObject);
     }
 }

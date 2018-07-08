@@ -27,14 +27,12 @@ public class UseHealPot : MonoBehaviour
     {
         if (refilling)
         {
-            //healthSlider.value = healthSlider.value += restoreAmount * (refillSpeed * Time.deltaTime);
-            //healthSlider.Set( healthSlider.value + restoreAmount * (refillSpeed * Time.deltaTime) );
             healthSlider.value += (restoreAmount / refillTicks);
             playerInterface.currentHealth = Convert.ToInt32(healthSlider.value);
 
             ticksRefilled++;
-            Debug.Log(ticksRefilled);
-            Debug.Log(healthSlider.value);
+            //Debug.Log(ticksRefilled);
+            //Debug.Log(healthSlider.value);
 
             if (ticksRefilled >= refillTicks)
             {

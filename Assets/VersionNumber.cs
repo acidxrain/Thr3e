@@ -45,8 +45,6 @@ public class VersionNumber : MonoBehaviour
     /// Use this for initialization
     void Start()
     {
-        DontDestroyOnLoad(this);
-
         // Log current version in log file
         Debug.Log(string.Format("Currently running version is {0}", Version));
 

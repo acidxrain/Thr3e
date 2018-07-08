@@ -13,6 +13,7 @@ public class GameMenuActions : MonoBehaviour
     private bool pause;
     public bool IsAlive;
     public PlayerInterface playerInterface;
+    public OptionsMenu optionsMenu;
 
     public void Start()
     {
@@ -71,8 +72,14 @@ public class GameMenuActions : MonoBehaviour
 
     public void Options()
     {
-        // Keep commented until options scene is finished.
-        // SceneManager.LoadScene(4, LoadSceneMode.Additive);
+        if (optionsMenu.ShowOptions == false)
+        {
+            optionsMenu.ShowOptionsMenu();
+        }
+        else
+        {
+            return;
+        }
     }
 
     public void SaveAndExit()
