@@ -1,0 +1,30 @@
+Which version to choose?
+
+The pack contains versions for Desktop and Mobile platforms in Linear and Gamma color spaces.
+
+1) Check your color space settings under Edit -> Project Settings -> Player -> Other Settings.
+
+2) Pick a version that matches your platform and color space.
+
+For example, if you are developing a PC project and your color space is Linear, then
+MUltistoryDungeonsPCLinear1.6.unitypackage is for you.
+
+3) Go to Assets -> Import Package -> Custom Package and select the one you want to import.
+
+===================
+
+Please make sure to backup your project before updating from any previous version, otherwise
+you might loose some of your progress!
+
+Note that every new level in mobile-gamma version is going to look a bit dark before the
+lighting is baked.
+
+Demo levels may have visual artifacts on Unity versions above 5.5. Usually, re-baking 
+lightmaps solves the problem.
+
+The pack is set up to work with the lightmap resolution of 5 and above, but it is possible
+to set it to 3 and still get acceptable results especially on mobile platforms.
+
+If you have a question of comment, email us at manastation3d@gmail.com
+
+Thank you for choosing Multistory Dungeons!

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Pathfinding;
 
 public class PlayerInterface : MonoBehaviour
 {
@@ -29,7 +28,7 @@ public class PlayerInterface : MonoBehaviour
     public TrollInterface trollInterface;                       // The Troll monter's script to get variables.
     public StatModifier statModifier;                           // The script used to pull stat variables from level-up's.
     Animator anim;                                              // The animator that drives the player's animations.
-    NavMeshAgent agent;                                         // The agent that drives the player's movement in the world.
+    Seeker seeker;                                              // The agent that drives the player's movement in the world.
     [SerializeField] private LayerMask interactableLayer;       // This layer contains anything the player can actually interact with by clicking.
 
     void Awake()
@@ -47,22 +46,39 @@ public class PlayerInterface : MonoBehaviour
     {
         // When we spawn, set our alive state to true, cache the navmesh agent, and set our health values.
         isAlive = true;
-        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        seeker = GetComponent<Seeker>();
         anim = GetComponent<Animator>();
         Vector3 position = transform.position;
+        anim.SetFloat("Speed", 0);
+    }
+
+    private void FixedUpdate()
+    {
+        // Handles the animation for running.
+        var ai = GetComponent<RichAI>();
+        anim.GetFloat("Speed");
+        if (ai.reachedEndOfPath)
+        {
+            anim.SetFloat("Speed", 0);
+        }
+        else
+        {
+            anim.SetFloat("Speed", 1);
+        }
     }
 
     void Update()
     {
         // Set our position so the monster knows where to attack.
-        position = this.transform.position;
+        position = transform.position;
         attackDelay = Math.Max(0, attackDelay - Time.deltaTime);
         damageAmount = statModifier.strength;
         healthValue.maxValue = statModifier.health;
         rageValue.maxValue = statModifier.resource;
+        anim.GetFloat("Speed");
 
         // Check for an interaction command.
-        if (Input.GetKey(KeyCode.Mouse0) && isAlive == true && !gameMenuActions.Paused && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetKey(KeyCode.Mouse0) && isAlive == true && !gameMenuActions.Paused) //&& !EventSystem.current.IsPointerOverGameObject()
         {
 
             RaycastHit hit;
@@ -73,22 +89,17 @@ public class PlayerInterface : MonoBehaviour
                 int objectClicked = hit.collider.gameObject.layer;
                 GameObject go = hit.collider.gameObject; //the object that was hit by the ray
 
+                var ai = GetComponent<RichAI>();
+                var stoppingDistance = ai.remainingDistance;
 
                 // If we click a monster, go to it and attack.
                 if (objectClicked == 11)
                 {
-                    agent.destination = go.transform.position;
-                    agent.stoppingDistance = 1.2f;
+                    seeker.StartPath (transform.position, go.transform.position);
+                    //seeker.stoppingDistance = 1.2f;
                     transform.LookAt(go.transform.position);
-
-                    if (agent.remainingDistance >= agent.stoppingDistance)
+                    if (ai.reachedEndOfPath)
                     {
-                        anim.SetBool("moving", true);
-                    }
-                    else if (agent.remainingDistance <= agent.stoppingDistance)
-                    {
-                        anim.SetBool("moving", false);
-
                         if (attackDelay == 0) // Add a check for the attack timer here to see if we can attack yet.
                         {          
                             TrollInterface ti = go.GetComponent<TrollInterface>();
@@ -109,14 +120,12 @@ public class PlayerInterface : MonoBehaviour
                 // If we click the ground, move on the navmesh to our destination.
                 else if (objectClicked == 9)
                 {
-                    agent.stoppingDistance = 0.0f;
-                    agent.destination = hit.point;
+                    seeker.StartPath(transform.position, hit.point);
                 }
                 // If we click a barrell, go to it and attack.
                 else if (objectClicked == 12)
                 {
-                    agent.stoppingDistance = 1.2f;
-                    agent.destination = go.transform.position;
+                    seeker.StartPath(transform.position, go.transform.position);
                     Debug.Log("Interactables not yet implemented!");
                 }
             }
@@ -162,7 +171,7 @@ public class PlayerInterface : MonoBehaviour
     {
         Debug.Log("Respawning!");
         anim.SetBool("isDead", false);
-        anim.SetBool("isIdle", true);
+        anim.SetFloat("Speed", 0);
         currentHealth = maxHealth;
         healthValue.value = maxHealth;
         isAlive = true;

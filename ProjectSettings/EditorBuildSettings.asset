@@ -13,7 +13,8 @@ EditorBuildSettings:
     guid: de686dc6d7bf81c4e983841add46e562
   - enabled: 1
     path: Assets/Thr3e Assets/Scenes/Thr3e.unity
-    guid: b641d7652bef43745b07a3e670246e59
+    guid: 42cc19524c5f7a6458ec3a5fd13816bf
   - enabled: 1
     path: Assets/Thr3e Assets/Scenes/Thank You.unity
     guid: fb7d2d2890d40fd4f8c468fe38306247
+  m_configObjects: {}

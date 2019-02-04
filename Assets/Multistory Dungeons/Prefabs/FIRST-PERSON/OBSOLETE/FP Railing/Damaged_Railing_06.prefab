@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3358986}
   - 23: {fileID: 2358986}
   - 65: {fileID: 6558986}
+  - 65: {fileID: 6596000}
   m_Layer: 0
   m_Name: Damaged_Railing_06
   m_TagString: Untagged
@@ -25,8 +26,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -64.22267, y: 0.921757, z: -217.57095}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,17 +41,20 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 500842d569aa0c34f98add7f98470e49, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -62,7 +67,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158986}
-  m_Mesh: {fileID: 4300000, guid: 78eb7abbf9dfdb847a05cc141c6bbbfe, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e8430a180ff39b24db9e15d34db8db3e, type: 3}
 --- !u!65 &6558986
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -73,8 +78,20 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.007866, y: 2.300383, z: 0.5922422}
-  m_Center: {x: -0.0039391425, y: 0.22843648, z: 0.053223573}
+  m_Size: {x: 6.007866, y: 1.2573533, z: 0.5922422}
+  m_Center: {x: -0.0039367676, y: -0.29307836, z: 0.053222656}
+--- !u!65 &6596000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4480836, y: 1.0511684, z: 0.5922422}
+  m_Center: {x: 2.2759705, y: 0.86206156, z: 0.053222656}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -1,12 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BillboardHealth : MonoBehaviour {
 
 	public Camera billboardCamera;
 
-	void Update()
+    private void Start()
+    {
+        billboardCamera = Camera.main;
+    }
+
+    void Update()
 	{
 		transform.LookAt(transform.position + billboardCamera.transform.rotation * Vector3.back, billboardCamera.transform.rotation * Vector3.down);
 	}

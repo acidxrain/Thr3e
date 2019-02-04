@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,7 +56,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 2
-  m_Color: {r: 0.13851647, g: 0.45762736, b: 0.89705884, a: 1}
+  m_Color: {r: 0.5036224, g: 0.70935, b: 0.99264705, a: 1}
   m_Intensity: 9.1
   m_Range: 10.48
   m_SpotAngle: 30

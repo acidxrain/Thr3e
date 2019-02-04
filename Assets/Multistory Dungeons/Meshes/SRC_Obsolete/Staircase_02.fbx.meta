@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: e7a35a668c0c06f4390372cc5ea0c9d7
+timeCreated: 1536472810
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Staircase_02_Collider_01
+    100004: Staircase_02_Collider_010
+    100006: Staircase_02_Collider_011
+    100008: Staircase_02_Collider_012
+    100010: Staircase_02_Collider_013
+    100012: Staircase_02_Collider_014
+    100014: Staircase_02_Collider_015
+    100016: Staircase_02_Collider_016
+    100018: Staircase_02_Collider_017
+    100020: Staircase_02_Collider_018
+    100022: Staircase_02_Collider_019
+    100024: Staircase_02_Collider_02
+    100026: Staircase_02_Collider_020
+    100028: Staircase_02_Collider_021
+    100030: Staircase_02_Collider_022
+    100032: Staircase_02_Collider_023
+    100034: Staircase_02_Collider_024
+    100036: Staircase_02_Collider_03
+    100038: Staircase_02_Collider_04
+    100040: Staircase_02_Collider_05
+    100042: Staircase_02_Collider_06
+    100044: Staircase_02_Collider_07
+    100046: Staircase_02_Collider_08
+    100048: Staircase_02_Collider_09
+    100050: Staircase_02_Mesh
+    400000: //RootNode
+    400002: Staircase_02_Collider_01
+    400004: Staircase_02_Collider_010
+    400006: Staircase_02_Collider_011
+    400008: Staircase_02_Collider_012
+    400010: Staircase_02_Collider_013
+    400012: Staircase_02_Collider_014
+    400014: Staircase_02_Collider_015
+    400016: Staircase_02_Collider_016
+    400018: Staircase_02_Collider_017
+    400020: Staircase_02_Collider_018
+    400022: Staircase_02_Collider_019
+    400024: Staircase_02_Collider_02
+    400026: Staircase_02_Collider_020
+    400028: Staircase_02_Collider_021
+    400030: Staircase_02_Collider_022
+    400032: Staircase_02_Collider_023
+    400034: Staircase_02_Collider_024
+    400036: Staircase_02_Collider_03
+    400038: Staircase_02_Collider_04
+    400040: Staircase_02_Collider_05
+    400042: Staircase_02_Collider_06
+    400044: Staircase_02_Collider_07
+    400046: Staircase_02_Collider_08
+    400048: Staircase_02_Collider_09
+    400050: Staircase_02_Mesh
+    2300000: Staircase_02_Collider_01
+    2300002: Staircase_02_Collider_010
+    2300004: Staircase_02_Collider_011
+    2300006: Staircase_02_Collider_012
+    2300008: Staircase_02_Collider_013
+    2300010: Staircase_02_Collider_014
+    2300012: Staircase_02_Collider_015
+    2300014: Staircase_02_Collider_016
+    2300016: Staircase_02_Collider_017
+    2300018: Staircase_02_Collider_018
+    2300020: Staircase_02_Collider_019
+    2300022: Staircase_02_Collider_02
+    2300024: Staircase_02_Collider_020
+    2300026: Staircase_02_Collider_021
+    2300028: Staircase_02_Collider_022
+    2300030: Staircase_02_Collider_023
+    2300032: Staircase_02_Collider_024
+    2300034: Staircase_02_Collider_03
+    2300036: Staircase_02_Collider_04
+    2300038: Staircase_02_Collider_05
+    2300040: Staircase_02_Collider_06
+    2300042: Staircase_02_Collider_07
+    2300044: Staircase_02_Collider_08
+    2300046: Staircase_02_Collider_09
+    2300048: Staircase_02_Mesh
+    3300000: Staircase_02_Collider_01
+    3300002: Staircase_02_Collider_010
+    3300004: Staircase_02_Collider_011
+    3300006: Staircase_02_Collider_012
+    3300008: Staircase_02_Collider_013
+    3300010: Staircase_02_Collider_014
+    3300012: Staircase_02_Collider_015
+    3300014: Staircase_02_Collider_016
+    3300016: Staircase_02_Collider_017
+    3300018: Staircase_02_Collider_018
+    3300020: Staircase_02_Collider_019
+    3300022: Staircase_02_Collider_02
+    3300024: Staircase_02_Collider_020
+    3300026: Staircase_02_Collider_021
+    3300028: Staircase_02_Collider_022
+    3300030: Staircase_02_Collider_023
+    3300032: Staircase_02_Collider_024
+    3300034: Staircase_02_Collider_03
+    3300036: Staircase_02_Collider_04
+    3300038: Staircase_02_Collider_05
+    3300040: Staircase_02_Collider_06
+    3300042: Staircase_02_Collider_07
+    3300044: Staircase_02_Collider_08
+    3300046: Staircase_02_Collider_09
+    3300048: Staircase_02_Mesh
+    4300000: Staircase_02_Mesh
+    4300002: Staircase_02_Collider_01
+    4300004: Staircase_02_Collider_02
+    4300006: Staircase_02_Collider_03
+    4300008: Staircase_02_Collider_04
+    4300010: Staircase_02_Collider_05
+    4300012: Staircase_02_Collider_06
+    4300014: Staircase_02_Collider_07
+    4300016: Staircase_02_Collider_08
+    4300018: Staircase_02_Collider_09
+    4300020: Staircase_02_Collider_010
+    4300022: Staircase_02_Collider_011
+    4300024: Staircase_02_Collider_012
+    4300026: Staircase_02_Collider_013
+    4300028: Staircase_02_Collider_014
+    4300030: Staircase_02_Collider_015
+    4300032: Staircase_02_Collider_016
+    4300034: Staircase_02_Collider_017
+    4300036: Staircase_02_Collider_018
+    4300038: Staircase_02_Collider_019
+    4300040: Staircase_02_Collider_020
+    4300042: Staircase_02_Collider_021
+    4300044: Staircase_02_Collider_022
+    4300046: Staircase_02_Collider_023
+    4300048: Staircase_02_Collider_024
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,28 @@
+
+=== Thu Nov  8 18:15:42 2018
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.collab-proxy@1.2.11
+The following packages were updated:
+  com.unity.package-manager-ui from version 1.9.11 to 2.0.3
+
+=== Sat Nov 10 15:58:10 2018
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.xr.legacyinputhelpers@1.0.0
+The following packages were updated:
+  com.unity.package-manager-ui from version 2.0.3 to 2.1.0-preview.1
+
+=== Sat Jan 26 21:15:21 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.2.11 to 1.2.15
